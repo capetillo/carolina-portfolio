@@ -5,9 +5,16 @@
   justify-content: space-between;
 }
 
-.caro {
-  width: 300px;
+.photo {
+  text-align: center;
 }
+
+.caro {
+  display: inline-block;
+  width: 300px;
+  align-content: center;
+}
+
 
 p {
   font-size: calc(0.5em + 1vw);

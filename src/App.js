@@ -15,7 +15,9 @@ function App() {
           <About />
         </Col>
         <Col sm={12} md={6} className="align-self-center">
+          <div className="photo">
           <img src={carolina} alt="Carolina, me, the creator of this portfolio" className="caro"/>
+          </div>
         </Col>
       </Row>
     </div>
