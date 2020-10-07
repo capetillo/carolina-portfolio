@@ -4,9 +4,9 @@ import {ListGroup, ListGroupItem} from 'react-bootstrap';
 const Technologies = (props) => {
     return (
     <div>
-        <h3>
+        <p>
              Here are a few technologies I've been working with recently:
-        </h3>
+        </p>
         <ListGroup horizontal>
             <ListGroup.Item >
                 JavaScript (ES6+)

@@ -10,7 +10,7 @@ import {Row, Col, Card, CardImg, CardText, CardBody,
 
 const About = (props) => {
     return (
-        <div className="aboutMe">
+        <div className="about">
            
             <Row className="text-left px-5" >
                
