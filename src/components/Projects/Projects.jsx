@@ -4,7 +4,7 @@ import {Row, Col} from 'react-bootstrap';
 
 const Projects = (props) => {
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             <Row className="text-right px-5">
             <Col sm={12} md={6} className="order-md-2">
                     <h1 className="project1">
