@@ -1,12 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import carolina from "../src/components/Images/carolina.jpg"
 import './App.css';
+import Header from './components/Header/Header'
 import About from './components/About/About'
+import {Row, Col} from 'react-bootstrap';
+
 
 function App() {
   return (
     <div className="App">
-      <About />
+      <Header />
+      <Row >
+        <Col sm={12} md={6}>
+          <About />
+        </Col>
+        <Col sm={12} md={6} className="align-self-center">
+          <img src={carolina} alt="Carolina, me, the creator of this portfolio" className="caro"/>
+        </Col>
+      </Row>
     </div>
   );
 }
