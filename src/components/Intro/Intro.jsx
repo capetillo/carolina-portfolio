@@ -6,8 +6,8 @@ const Intro = (props) => {
     <div className="intro">
         <h1>Hello! I'm Carolina Capetillo.</h1>
         <h1>SOME CATCHPHRASE I GUESS</h1>
-        <p>I'm a full-stack developer based in Santa Barbara, California and I 
-            enjoy creating and designing beautfiul games, applications, websites, and extensions.
+        <p>I'm a full-stack developer based in Santa Barbara, California. I 
+            create and design beautfiul games, applications, websites, and extensions.
         </p>
     </div>
     )
