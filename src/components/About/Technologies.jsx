@@ -1,5 +1,6 @@
 import React from 'react';
 import {ListGroup, ListGroupItem} from 'react-bootstrap';
+import './About.css';
 
 const Technologies = (props) => {
     return (
@@ -7,7 +8,7 @@ const Technologies = (props) => {
         <p>
              Here are a few technologies I've been working with recently:
         </p>
-        <ListGroup horizontal>
+        <ListGroup horizontal className="list">
             <ListGroup.Item >
                 JavaScript (ES6+)
             </ListGroup.Item>
@@ -15,7 +16,7 @@ const Technologies = (props) => {
                 HTML + CSS
             </ListGroup.Item>
             </ListGroup>
-            <ListGroup horizontal>
+            <ListGroup horizontal className="list">
              <ListGroup.Item >
                  React
             </ListGroup.Item>
@@ -23,7 +24,7 @@ const Technologies = (props) => {
                 Node.js
             </ListGroup.Item>
         </ListGroup>
-        <ListGroup horizontal>
+        <ListGroup horizontal className="list">
              <ListGroup.Item >
                  MongooseDB
             </ListGroup.Item>
