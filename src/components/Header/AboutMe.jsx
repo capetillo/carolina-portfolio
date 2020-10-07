@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-const Header = (props) => {
+const AboutMe = (props) => {
     return (
     <div className="title">
         <h1>about me</h1>
@@ -9,4 +9,4 @@ const Header = (props) => {
     )
 }
 
-export default Header
+export default AboutMe
