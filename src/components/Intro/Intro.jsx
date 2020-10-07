@@ -12,3 +12,5 @@ const Intro = (props) => {
     </div>
     )
 }
+
+export default Intro;

@@ -1,7 +1,8 @@
 import React from 'react';
 import carolina from "../src/components/Images/carolina.jpg";
 import './App.css';
-import NavBar from './components/NavBar/NavBar'
+import NavBar from './components/NavBar/NavBar';
+import Intro from './components/Intro/Intro';
 import AboutMe from './components/Header/AboutMe';
 import ProjectsHeader from './components/Header/ProjectsHeader';
 import About from './components/About/About';
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      <Intro />
       <AboutMe />
         <Row >
           <Col sm={12} md={6}>
