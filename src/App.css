@@ -1,4 +1,6 @@
-
+* {
+  background: rgb(14, 26, 45);
+}
 .aboutMe {
   display: flex;
   justify-content: space-between;
@@ -17,4 +19,10 @@
 
 p {
   font-size: calc(0.5em + 1vw);
+  color: rgb(138, 147, 173)
+}
+
+h1 {
+  color: rgb(206, 215, 243)
+  /* color: rgb(232, 184, 115) accent colors*/
 }
