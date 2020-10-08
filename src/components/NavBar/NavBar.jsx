@@ -21,7 +21,7 @@ class Navigation extends Component {
                 ) {
                     document.getElementById("navbar").style.top = "0";
                 } else {
-                    // how much is the navbar hidden 
+                    // how many rems is the navbar hidden 
                     document.getElementById("navbar").style.top = "-5.0rem";
                 }
                 prevScrollPos = currentScrollPos
@@ -34,10 +34,13 @@ class Navigation extends Component {
             return (
         <div className="links" id="navbar">
             <Nav className="navbar navbar-expand-md navbar-dark">
-            <Button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div className="menu-links">
+            <Button id ="boton" className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                  <span className="navbar-toggler-icon"></span>
             </Button>
+            </div>
             <div className="navbar-collapse collapse" id="navbarNav">
+               
                     <Link
                             className="nav-link"
                             activeClass="active"
@@ -73,7 +76,6 @@ class Navigation extends Component {
                         > 
                         contact 
                     </Link>
-           
             </div>
          </Nav> 
         </div>

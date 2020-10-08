@@ -1,6 +1,5 @@
 .links {
     cursor: pointer;
-    background: red;
     position: fixed;
     width: 100%;
     top: 0;
@@ -11,3 +10,15 @@
 }
 
 
+.menu-links {
+    padding-bottom: 1vw;     
+}
+
+#boton {
+    background-color: rgb(14, 26, 45);     
+}
+
+ #boton:focus {
+    box-shadow:none !important;
+    outline: none !important;
+}
