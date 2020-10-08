@@ -1,9 +1,12 @@
 .links {
     cursor: pointer;
-    background-color: red;
+    background: red;
     position: fixed;
     width: 100%;
     top: 0;
-    transition: top 0.5s;
+    transition:  0.5s;
+    padding-bottom: 2vw;
+    z-index: 9;   
 }
+
 
