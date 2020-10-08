@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import carolina from "../src/components/Images/carolina.jpg";
 import './App.css';
-import Nav from './components/NavBar/NavBar';
+import Navigation from './components/NavBar/NavBar';
 import Intro from './components/Intro/Intro';
 import AboutMe from './components/Header/AboutMe';
 import ProjectsHeader from './components/Header/ProjectsHeader';
@@ -23,7 +23,7 @@ export default class App extends Component {
       <div className="App">
       
       <Intro />
-      <Nav/>
+      <Navigation/>
       <AboutMe />
         <Row >
           <Col sm={12} md={6}>

@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import './NavBar.css'
 import { Link, animateScroll as scroll } from "react-scroll";
+import {NavBar, Nav, NavItem, Button} from 'react-bootstrap';
 
 
-class Nav extends Component {
+class Navigation extends Component {
     constructor (props) {
         super(props);
         if (typeof window !== 'undefined') {
@@ -32,42 +33,58 @@ class Nav extends Component {
         render () {
             return (
         <div className="links" id="navbar">
-            
-            <Link
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={700}
-            >
-                about
-                </Link>
-                <Link
-                activeClass="active"
-                to="projects"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={700}
-            >
-                projects
-                </Link>
-                <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={700}
-            >
-                contact
-                </Link>
+            <Nav className="navbar navbar-expand-md navbar-dark">
+            <Button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                 <span className="navbar-toggler-icon"></span>
+            </Button>
+            <div className="navbar-collapse collapse" id="navbarNav">
+                    <Link
+                            className="nav-link"
+                            activeClass="active"
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={700}
+                        > 
+                        about 
+                    </Link>
+              
+                    <Link
+                            className="nav-link"
+                            activeClass="active"
+                            to="projects"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={700}
+                        > 
+                        projects 
+                    </Link>
+              
+                    <Link
+                            className="nav-link"
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={700}
+                        > 
+                        contact 
+                    </Link>
            
+            </div>
+         </Nav> 
         </div>
             )
         }
     }
+
+
+ 
+ 
+ 
     
 
-export default Nav
+export default Navigation;

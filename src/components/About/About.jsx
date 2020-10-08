@@ -4,8 +4,7 @@ import Bio from './Bio';
 import Interests from './Interests';
 import Education from './Education';
 import Technologies from './Technologies';
-import {Row, Col, Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button} from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 
 
 const About = (props) => {
