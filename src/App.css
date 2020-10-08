@@ -1,20 +1,19 @@
 * {
   background: rgb(14, 26, 45);
 }
-.aboutMe {
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .photo {
   text-align: center;
+
 }
 
 .caro {
   display: inline-block;
-  width: 300px;
+  width: 40vw;
   align-content: center;
   border-radius: 1%;
+  margin-top: 3vw;
 }
 
 

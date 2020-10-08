@@ -26,14 +26,17 @@ export default class App extends Component {
       <Navigation/>
       <AboutMe />
         <Row >
+        
           <Col sm={12} md={6}>
             <About />
           </Col>
-          <Col sm={12} md={6} className="align-self-center">
+          
+          <Col sm={12} md={6} className="justify-self-md-center">
             <div className="photo">
             <img src={carolina} alt="Carolina, me, the creator of this portfolio" className="caro"/>
             </div>
           </Col>
+         
         </Row>
       <ProjectsHeader />
       <Projects />

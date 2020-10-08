@@ -1,5 +1,6 @@
 .placeholder1, .placeholder2, .placeholder3 {
     width: 40vw;
+    border-radius: 1%;
 }
 
 .project {
