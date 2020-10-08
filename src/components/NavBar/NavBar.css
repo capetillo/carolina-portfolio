@@ -22,3 +22,7 @@
     box-shadow:none !important;
     outline: none !important;
 }
+
+#boton:active {
+    border-color: rgb(41, 49, 66)
+}
