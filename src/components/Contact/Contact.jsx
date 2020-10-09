@@ -23,12 +23,12 @@ export default function Contact() {
         return (
             <div className="contact" id="contact">
                 <h1 className="contactme">contact me </h1>
-                <Button className="collapsed" type="button" data-toggle="collapse" data-target="#form-collapse-text" aria-controls="form-collapse-text" aria-expanded="false" aria-label="Toggle navigation">
+                <Button className="collapsed" type="button" data-toggle="collapse" data-target="#form-collapse-text" aria-controls="form-collapse-text" aria-expanded="false" aria-label="Toggle button">
                 contact me
                  </Button>
                 <Fade in="true">
-                <form onSubmit={sendEmail} id="form-collapse-text">
-                    <Row className="pt-5 mx-auto">
+                <form onSubmit={sendEmail} >
+                    <Row className="pt-5 mx-auto collapse" id="form-collapse-text">
                         <Col className="form-group mx-auto">
                             <input type="text" className="form-control" placeholder="name" name="name"/>
                         </Col>
