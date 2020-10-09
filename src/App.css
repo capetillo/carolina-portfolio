@@ -5,8 +5,21 @@
 
 .photo {
   text-align: center;
-  
- 
+}
+
+
+
+.caro {
+  display: block;
+  width: 30vw;
+  border-radius: 1%;
+  margin-top: 3vw;
+  align-content: center;
+  opacity: 0.5;
+  -webkit-transition: 0.7s ease-in-out;
+  -moz-transition: 0.7s ease-in-out;
+  -o-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
 }
 
 .caro-span {
@@ -17,31 +30,22 @@
   -moz-transition: 0.7s ease-in-out;
   -o-transition: 0.7s ease-in-out;
   transition: 0.7s ease-in-out;
-
 }
 
 .caro-span:hover {
   background-color: transparent;
 }
 
-.caro {
-  display: block;
-  width: 30vw;
-  align-content: center;
-  border-radius: 1%;
-  margin-top: 3vw;
-  opacity: 0.5;
-  
-}
-
-.caro:hover {
+.caro-span:hover .caro {
   opacity: 1;
   -webkit-transition: 0.7s ease-in-out;
   -moz-transition: 0.7s ease-in-out;
   -o-transition: 0.7s ease-in-out;
   transition: 0.7s ease-in-out;
-
 }
+
+  
+
 
 
 
