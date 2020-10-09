@@ -6,16 +6,20 @@
     transition:  0.5s;
     padding-bottom: 2vw;
     z-index: 9;  
-    color: rgb(138, 147, 173) 
+    color: rgb(232, 184, 115)
 }
 
 
 .menu-links {
-    padding-bottom: 1vw;     
+    padding: 2vw 0;     
 }
 
 #boton {
-    background-color: rgb(14, 26, 45);     
+    background-color: rgb(14, 26, 45);  
+    width: 47px;
+    height: 34px;
+    border-color: transparent;
+    
 }
 
  #boton:focus {
@@ -24,5 +28,29 @@
 }
 
 #boton:active {
-    border-color: rgb(41, 49, 66)
+    border-color: transparent;
+}
+
+.line {
+    float: left;
+    height: 3px;
+    background-color: rgb(232, 184, 115);
+    margin: 6px;
+    border-radius: 10%;
+}
+
+#line1 {
+    margin: 3.5px 0;
+    width: 180%;
+
+}
+
+#line2 {
+    margin: 3.5px 0;
+    width: 150%;
+}
+
+#line3 {
+    margin: 3.5px 0;
+    width: 100%;
 }

@@ -1,1 +1,14 @@
 
+.lists {
+    color: rgb(138, 147, 173);
+    display: flex;
+}
+
+.tech {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "◇ ";
+    color: rgb(232, 184, 115)
+}
