@@ -20,7 +20,9 @@ const Projects = (props) => {
                     </div>
                 </Col>
                 <Col sm={12} md={6} className="align-self-center order-md-1">
-                    <img src="https://countrylakesdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.jpg" alt="temporary placeholder" className="placeholder1"/>
+                    <div className="project-span">
+                        <img src="https://countrylakesdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.jpg" alt="temporary placeholder" className="placeholder1"/>
+                    </div>
                 </Col>
             </Row>
             <Row className="text-left px-5">
@@ -38,7 +40,9 @@ const Projects = (props) => {
                 </div>
             </Col>
             <Col sm={12} md={{size: 6, order: 2}} className="align-self-center order-md-2">
-                <img src="https://countrylakesdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.jpg" alt="temporary placeholder" className="placeholder2"/>
+                <div className="project-span">
+                    <img src="https://countrylakesdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.jpg" alt="temporary placeholder" className="placeholder1"/>
+                </div>
             </Col>
           
         </Row>
@@ -57,7 +61,9 @@ const Projects = (props) => {
                 </div>
             </Col>
             <Col sm={12} md={6} className="align-self-center order-md-1">
-                <img src="https://countrylakesdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.jpg" alt="temporary placeholder" className="placeholder3"/>
+                <div className="project-span">
+                    <img src="https://countrylakesdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.jpg" alt="temporary placeholder" className="placeholder1"/>
+                </div>
             </Col>   
         </Row>
         </div>
