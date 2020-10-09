@@ -22,8 +22,6 @@
     margin-top: 2vw;
 }
 
- .email-form {
-    /* width: 100%; */
-    /* display: inline; */
-    
-} 
+#send-message-button {
+    background-color: rgb(232, 184, 115)
+}

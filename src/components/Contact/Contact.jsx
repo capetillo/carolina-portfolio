@@ -3,12 +3,14 @@ import './Contact.css';
 import emailjs from 'emailjs-com';
 import {Row, Col, Button, Collapse} from 'react-bootstrap';
 
+
 export default function Contact() {
+
 
     function sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('gmail', 'template_73mzcao', e.target, 'user_JzyA9mMxX3G7uexfqc5uS')
+        emailjs.sendForm('gmail', process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -17,8 +19,9 @@ export default function Contact() {
           e.target.reset()
     }
         return (
-            <div className="contact" id="contact">
+            <div className="contact">
                 <div className="contactform">
+                   
                 <h1 className="contactme">contact me</h1>
                 <p>I'm currently looking for work! Feel free to reach out if you have any questions, comments, suggestions, or just want to say hello!</p>
                
@@ -35,17 +38,17 @@ export default function Contact() {
                                 <Col className="form-group mx-auto" sm={12} >
                                     <input type="text" className="form-control" placeholder="name" name="name"/>
                                 </Col>
-                                <Col className="form-group mx-auto" sm={12}>
+                                <Col className="form-group mx-auto " sm={12}>
                                     <input type="email" className="form-control" placeholder="email address" name="email"/>
                                 </Col>
                                 <Col className="form-group mx-auto" sm={12}>
                                     <input type="text" className="form-control" placeholder="subject" name="subject"/>
                                 </Col>
                                 <Col className="form-group pt-2 mx-auto" sm={12}>
-                                    <textarea className="form-control" cols="20" rows="6" placeholder="your message" name="message"></textarea>
+                                    <textarea className="form-control" cols="40" rows="6" placeholder="your message" name="message"></textarea>
                                 </Col>
                                 <Col className="form-group pt-3 mx-auto" sm={12}>
-                                    <input type="submit" className="btn btn-info" value="send message"/>
+                                    <input type="submit" className="btn" value="send message" id="send-message-button"/>
                                 </Col>
                                 </div>
                             </Row>
@@ -54,6 +57,7 @@ export default function Contact() {
                     </form>
                  
                     </Collapse>
+                  
                 </div>
                
             </div>
