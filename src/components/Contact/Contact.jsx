@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import emailjs from 'emailjs-com';
-import {Row, Col} from 'react-bootstrap';
+import {Row, Col, Button, Fade} from 'react-bootstrap';
 
 export default function Contact() {
 
@@ -16,12 +16,18 @@ export default function Contact() {
           });
           e.target.reset()
     }
-    
+
+
+      
     
         return (
             <div className="contact" id="contact">
                 <h1 className="contactme">contact me </h1>
-                <form onSubmit={sendEmail}>
+                <Button className="collapsed" type="button" data-toggle="collapse" data-target="#form-collapse-text" aria-controls="form-collapse-text" aria-expanded="false" aria-label="Toggle navigation">
+                contact me
+                 </Button>
+                <Fade in="true">
+                <form onSubmit={sendEmail} id="form-collapse-text">
                     <Row className="pt-5 mx-auto">
                         <Col className="form-group mx-auto">
                             <input type="text" className="form-control" placeholder="name" name="name"/>
@@ -40,10 +46,12 @@ export default function Contact() {
                         </Col>
                     </Row>
                 </form>
+                </Fade>
             </div>
         )
 
 }
+
 
 
 
