@@ -1,17 +1,29 @@
 .contact {
     display: inline;
     text-align: center;
+   
 }
 
-
-.email-button {
+.contactform {
+    margin-bottom: 10vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+    height: 100%;
+  
 }
 
-/* .email-form {
-    display: flex;
+ .get-in-touch{
+    margin: 1vw 0;
+}
+
+.paddingpurposes {
+    margin-top: 2vw;
+}
+
+ .email-form {
+    /* width: 100%; */
+    /* display: inline; */
     
-} */
+} 

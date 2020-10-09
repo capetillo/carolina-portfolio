@@ -33,7 +33,7 @@ class Navigation extends Component {
         render () {
             return (
         <div className="links" id="navbar">
-            <Nav className="navbar navbar-expand-md navbar-dark">
+            <Nav className="navbar navbar-expand-md navbar-dark shadow">
             <div className="menu-links">
             <Button id ="boton" className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span id="line1" className="line"></span> 
