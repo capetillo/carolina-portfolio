@@ -9,7 +9,6 @@
     color: rgb(232, 184, 115)
 }
 
-
 .menu-links {
     padding: 2vw 0;     
 }
@@ -18,8 +17,7 @@
     background-color: rgb(14, 26, 45);  
     width: 47px;
     height: 34px;
-    border-color: transparent;
-    
+    border-color: transparent;  
 }
 
  #boton:focus {
@@ -42,7 +40,6 @@
 #line1 {
     margin: 3.5px 0;
     width: 180%;
-
 }
 
 #line2 {

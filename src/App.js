@@ -33,7 +33,9 @@ export default class App extends Component {
           
           <Col sm={12} md={6} className="justify-self-md-center">
             <div className="photo">
-            <img src={carolina} alt="Carolina, me, the creator of this portfolio" className="caro"/>
+              <div className="caro-span">
+                <img src={carolina} alt="Carolina, me, the creator of this portfolio" className="caro"/>
+              </div>
             </div>
           </Col>
          

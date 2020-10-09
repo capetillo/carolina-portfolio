@@ -5,16 +5,46 @@
 
 .photo {
   text-align: center;
+  
+ 
+}
+
+.caro-span {
+  background-color: rgb(232, 184, 115);
+  width: 30vw;
+  border-radius: 1%;
+  -webkit-transition: 0.7s ease-in-out;
+  -moz-transition: 0.7s ease-in-out;
+  -o-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
 
 }
 
+.caro-span:hover {
+  background-color: transparent;
+
+  
+}
+
 .caro {
-  display: inline-block;
+  display: block;
   width: 30vw;
   align-content: center;
   border-radius: 1%;
   margin-top: 3vw;
+  opacity: 0.5;
+  
 }
+
+.caro:hover {
+  opacity: 1;
+  -webkit-transition: 0.7s ease-in-out;
+  -moz-transition: 0.7s ease-in-out;
+  -o-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+
+}
+
 
 
 p {
