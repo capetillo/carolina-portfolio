@@ -31,7 +31,7 @@ export default class App extends Component {
             <About />
           </Col>
           
-          <Col sm={12} md={6} className="justify-self-md-center">
+          <Col sm={12} md={6} className="d-flex align-items-center justify-content-center">
             <div className="photo">
               <div className="caro-span">
                 <img src={carolina} alt="Carolina, me, the creator of this portfolio" className="caro"/>
@@ -50,29 +50,3 @@ export default class App extends Component {
 }
 
 
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <NavBar/>
-//       <Intro />
-//       <AboutMe />
-//         <Row >
-//           <Col sm={12} md={6}>
-//             <About />
-//           </Col>
-//           <Col sm={12} md={6} className="align-self-center">
-//             <div className="photo">
-//             <img src={carolina} alt="Carolina, me, the creator of this portfolio" className="caro"/>
-//             </div>
-//           </Col>
-//         </Row>
-//       <ProjectsHeader />
-//       <Projects />
-//       <Contact/>
-//     </div>
-//   );
-// }
-
-// export default App;
