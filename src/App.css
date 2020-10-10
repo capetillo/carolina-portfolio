@@ -2,17 +2,14 @@
   background: rgb(14, 26, 45);
 }
 
-
 .photo {
   text-align: center;
   margin-bottom: 15vw;
 }
 
-
-
-.caro {
+#caro {
   display: block;
-  width: 30vw;
+  width: 30vh;
   border-radius: 1%;
   margin-top: 3vw;
   align-content: center;
@@ -25,7 +22,7 @@
 
 .caro-span {
   background-color: rgb(232, 184, 115);
-  width: 30vw;
+  width: 30vh;
   border-radius: 1%;
   -webkit-transition: 0.7s ease-in-out;
   -moz-transition: 0.7s ease-in-out;
@@ -37,18 +34,13 @@
   background-color: transparent;
 }
 
-.caro-span:hover .caro {
+.caro-span:hover #caro {
   opacity: 1;
   -webkit-transition: 0.7s ease-in-out;
   -moz-transition: 0.7s ease-in-out;
   -o-transition: 0.7s ease-in-out;
   transition: 0.7s ease-in-out;
 }
-
-  
-
-
-
 
 p {
   font-size: calc(0.5em + 1vw);

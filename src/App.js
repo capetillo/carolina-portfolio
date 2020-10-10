@@ -8,7 +8,7 @@ import ProjectsHeader from './components/Header/ProjectsHeader';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact'
-import {Row, Col} from 'react-bootstrap';
+import {Row, Col, Image} from 'react-bootstrap';
 
 
 
@@ -31,14 +31,13 @@ export default class App extends Component {
             <About />
           </Col>
           
-          <Col sm={12} md={6} className="d-flex align-items-center justify-content-center">
+          <Col sm={12} md={6} className="d-flex align-items-center justify-content-center img-responsive hidden-sm">
             <div className="photo">
               <div className="caro-span">
-                <img src={carolina} alt="Carolina, me, the creator of this portfolio" className="caro"/>
+                <Image src={carolina} alt="Carolina, me, the creator of this portfolio" id="caro"/>
               </div>
             </div>
           </Col>
-         
         </Row>
       <ProjectsHeader />
       <Projects />
