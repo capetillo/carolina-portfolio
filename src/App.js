@@ -22,11 +22,15 @@ export default class App extends Component {
 
     return (
       <div className="App">
-      <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3">
+      <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeInDown">
       <Intro />
       </ScrollAnimation>
       <Navigation/>
+      <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
       <AboutMe />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
+      
         <Row >
         
           <Col sm={12} md={6}>
@@ -41,9 +45,16 @@ export default class App extends Component {
             </div>
           </Col>
         </Row>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
       <ProjectsHeader />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
       <Projects />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
       <Contact/>
+      </ScrollAnimation>
     </div>
     
     );
