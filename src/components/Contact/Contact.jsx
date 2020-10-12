@@ -21,16 +21,20 @@ export default function Contact() {
         return (
             <div className="contact">
                 <div className="contactform">
-                   
+                <Row className="pb-md-5">
+                    <Col sm={12} className="pb-md-3">
                 <h1 className="contactme">contact me</h1>
+                </Col>
+                <Col sm={12} className="px-5">
                 <p>I'm currently looking for work! Feel free to reach out if you have any questions, comments, suggestions, or just want to say hello!</p>
-               
+                </Col>
+                </Row>
                     <div className="get-in-touch">
                         <Button className="collapsed justify-self-center" type="button" data-toggle="collapse" data-target="#form-collapse-text" aria-controls="form-collapse-text" aria-expanded="false" aria-label="Toggle button">
                         get in touch
                         </Button>
                     </div>
-                    <Collapse in="true">
+                    <Collapse in={true}>
                     <form onSubmit={sendEmail} >
                         <div className="paddingpurposes">
                             <Row className="mx-auto collapse" id="form-collapse-text">
