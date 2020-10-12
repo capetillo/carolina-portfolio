@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import './NavBar.css'
+import './NavBar.css';
 import { Link, animateScroll as scroll } from "react-scroll";
 import {NavBar, Nav, NavItem, Button} from 'react-bootstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 class Navigation extends Component {
@@ -28,8 +29,6 @@ class Navigation extends Component {
             }
         }
     }
-
-
         render () {
             return (
         <div className="links" id="navbar">
@@ -42,7 +41,7 @@ class Navigation extends Component {
             </Button>
             </div>
             <div className="navbar-collapse collapse" id="navbarNav">
-               
+                
                     <Link
                             className="nav-link"
                             activeClass="active"
@@ -52,9 +51,9 @@ class Navigation extends Component {
                             offset={-70}
                             duration={700}
                         > 
-                        about 
+                        about
                     </Link>
-              
+
                     <Link
                             className="nav-link"
                             activeClass="active"
@@ -64,9 +63,12 @@ class Navigation extends Component {
                             offset={-70}
                             duration={700}
                         > 
+                       
                         projects 
+                        
                     </Link>
-              
+            
+                
                     <Link
                             className="nav-link"
                             activeClass="active"
@@ -76,8 +78,11 @@ class Navigation extends Component {
                             offset={-70}
                             duration={700}
                         > 
+                        
                         contact 
+                       
                     </Link>
+           
             </div>
          </Nav> 
         </div>

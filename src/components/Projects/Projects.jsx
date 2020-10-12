@@ -6,8 +6,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Projects = (props) => {
     return (
         <div className="projects" id="projects">
-            <ScrollAnimation animateIn="fadeInUp" animateOnce="true" duration="1.2"  animatePreScroll="false">
-            <Row className="text-right px-5">
+            <ScrollAnimation animateIn="fadeInUp" animateOnce={true} duration={1.2}  animatePreScroll={false}>
+            <Row className="text-right m-4 p-md-5">
             
             <Col sm={12} md={6} className="order-md-2">
                     <h1 className="project1">
@@ -30,8 +30,8 @@ const Projects = (props) => {
               
             </Row>
             </ScrollAnimation>  
-            <ScrollAnimation animateIn="fadeInUp" animateOnce="true" duration="1.2" animatePreScroll="false">
-            <Row className="text-left px-5">
+            <ScrollAnimation animateIn="fadeInUp" animateOnce={true} duration={1.2} animatePreScroll={false}>
+            <Row className="text-left m-4 p-md-5">
            
             <Col sm={12} md={6} className="order-md-1">
                 <h1 className="project2">
@@ -54,8 +54,8 @@ const Projects = (props) => {
           
         </Row>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" animateOnce="true" duration="1.2" animatePreScroll="false">
-        <Row className="text-right px-5">
+        <ScrollAnimation animateIn="fadeInUp" animateOnce={true} duration={1.2} animatePreScroll={false}>
+        <Row className="text-right m-4 p-md-5">
        
             <Col sm={12} md={6} className="order-md-2">
                 <h1 className="project3">
