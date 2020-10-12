@@ -22,14 +22,14 @@ export default class App extends Component {
 
     return (
       <div className="App">
-      <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeInDown">
+      <ScrollAnimation animateOnce="true" duration="3" animateIn="fadeInDown">
       <Intro />
       </ScrollAnimation>
       <Navigation/>
-      <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
+      <ScrollAnimation animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
       <AboutMe />
       </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
+      <ScrollAnimation animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
       
         <Row >
         
@@ -46,13 +46,13 @@ export default class App extends Component {
           </Col>
         </Row>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
+        <ScrollAnimation  animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
       <ProjectsHeader />
       </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
+      <ScrollAnimation  animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
       <Projects />
       </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
+      <ScrollAnimation animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
       <Contact/>
       </ScrollAnimation>
     </div>

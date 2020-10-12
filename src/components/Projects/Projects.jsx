@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Projects = (props) => {
     return (
         <div className="projects" id="projects">
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
+            <ScrollAnimation animateIn="fadeInUp" animateOnce="true" duration="1.2"  animatePreScroll="false">
             <Row className="text-right px-5">
             
             <Col sm={12} md={6} className="order-md-2">
@@ -30,7 +30,7 @@ const Projects = (props) => {
               
             </Row>
             </ScrollAnimation>  
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
+            <ScrollAnimation animateIn="fadeInUp" animateOnce="true" duration="1.2" animatePreScroll="false">
             <Row className="text-left px-5">
            
             <Col sm={12} md={6} className="order-md-1">
@@ -54,7 +54,7 @@ const Projects = (props) => {
           
         </Row>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
+        <ScrollAnimation animateIn="fadeInUp" animateOnce="true" duration="1.2" animatePreScroll="false">
         <Row className="text-right px-5">
        
             <Col sm={12} md={6} className="order-md-2">
