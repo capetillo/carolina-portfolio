@@ -1,11 +1,14 @@
 import React from 'react';
 import './Projects.css'
 import {Row, Col} from 'react-bootstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Projects = (props) => {
     return (
         <div className="projects" id="projects">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
             <Row className="text-right px-5">
+            
             <Col sm={12} md={6} className="order-md-2">
                     <h1 className="project1">
                          Project 1
@@ -24,8 +27,12 @@ const Projects = (props) => {
                         <img src="https://countrylakesdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.jpg" alt="temporary placeholder" className="placeholder1"/>
                     </div>
                 </Col>
+              
             </Row>
+            </ScrollAnimation>  
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
             <Row className="text-left px-5">
+           
             <Col sm={12} md={6} className="order-md-1">
                 <h1 className="project2">
                      Project 2
@@ -46,7 +53,10 @@ const Projects = (props) => {
             </Col>
           
         </Row>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" animateOnce="true" duration="3" animateIn="fadeIn" animatePreScroll="false">
         <Row className="text-right px-5">
+       
             <Col sm={12} md={6} className="order-md-2">
                 <h1 className="project3">
                      Project 3
@@ -65,7 +75,9 @@ const Projects = (props) => {
                     <img src="https://countrylakesdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.jpg" alt="temporary placeholder" className="placeholder1"/>
                 </div>
             </Col>   
+           
         </Row>
+        </ScrollAnimation>
         </div>
     )
 }
