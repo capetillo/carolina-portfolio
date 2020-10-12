@@ -21,7 +21,8 @@
 }
 
 .caro-span {
-  background-color: rgb(232, 184, 115);
+  background-color: rgb(243, 159, 74);
+  /* background-color: red; */
   width: 30vh;
   border-radius: 1%;
   -webkit-transition: 0.7s ease-in-out;
