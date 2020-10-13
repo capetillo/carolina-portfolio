@@ -21,7 +21,7 @@ export default function Contact() {
         return (
             <div className="contact">
                 <div className="contactform">
-                <Row className="pb-md-5">
+                <Row className="pb-md-3">
                     <Col sm={12} className="pb-md-3">
                 <h1 className="contactme">contact me</h1>
                 </Col>

@@ -7,7 +7,8 @@ import AboutMe from './components/Header/AboutMe';
 import ProjectsHeader from './components/Header/ProjectsHeader';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
-import Contact from './components/Contact/Contact'
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import {Row, Col, Image} from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -55,6 +56,7 @@ export default class App extends Component {
       <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeIn" animatePreScroll={false}>
       <Contact/>
       </ScrollAnimation>
+      <Footer/>
     </div>
     
     );

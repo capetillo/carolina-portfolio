@@ -1,0 +1,12 @@
+.footer {
+    color: greenyellow;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.temp2 {
+    transform: rotate(90deg);
+}
