@@ -27,9 +27,6 @@ export default class App extends Component {
       <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeInDown">
       <Intro />
       </ScrollAnimation>
-      <div className="logos">
-      <Footer/>
-      </div>
       <Navigation/>
       <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeIn" animatePreScroll={false}>
       <AboutMe />
@@ -60,6 +57,9 @@ export default class App extends Component {
       <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeIn" animatePreScroll={false}>
       <Contact/>
       </ScrollAnimation>
+      <div className="logos">
+      <Footer/>
+      </div>
       </div>
     </div>
     

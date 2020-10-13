@@ -2,9 +2,9 @@
   background: rgb(14, 26, 45);
 }
 
-.container-of-page {
+/* .container-of-page {
   position: relative;
-}
+} */
 
 .photo {
   text-align: center;
@@ -57,8 +57,8 @@ h1 {
   /* color: rgb(232, 184, 115) accent colors*/
 }
 
-div.logos {
+/* div.logos {
   position: fixed;
   transform: none;
   transition: none;
-}
+} */
