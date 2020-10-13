@@ -1,8 +1,12 @@
 .footer {
-   
-   
+  
+
 }
 
-.github, .linkedin {
-    width: 2vw;
+.sidebar {
+
+}
+
+.github, .linkedin, .whatsapp {
+    width: 3vh;
 }
