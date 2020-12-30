@@ -25,10 +25,12 @@ export default function Contact() {
                 <h1 className="contactme">Contact Me</h1>
                 </Col>
                 <Col sm={12} className="px-5">
-                <p className="contact-about">I'm currently looking for work. Feel free to reach out if you are <br></br>
+                <p className="contact-about">
+                    I'm currently looking for work. Feel free to reach out if you are <br></br>
                     interested in my work, would like to collaborate, or if you have <br></br>
-                    any questions, comments, suggestions, or just would like to get<br></br>
-                    to know me as a software engineer! Stay safe and wear a mask.
+                    any questions, comments, suggestions, or would like to get<br></br>
+                    to know me as a software engineer! <br></br>
+                    Stay safe and wear a mask.
                     </p>
                 </Col>
                 </Row>

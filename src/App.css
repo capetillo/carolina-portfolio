@@ -4,10 +4,11 @@ cursor: default;
 }
 
 .App{
-background: -webkit-radial-gradient(center, rgba(18, 4, 79, 1.0), rgba(13, 5, 60, 1.0));
-background: -moz-radial-gradient(center, rgba(18, 4, 79, 1.0), rgba(13, 5, 60, 1.0));
-background: radial-gradient(ellipse at center, rgba(18, 4, 79, 1.0), rgba(13, 5, 60, 1.0));
-width: 100%;
+  background: rgba(32, 67, 121, 1.0);
+  background: -webkit-radial-gradient(center, rgba(32, 67, 121, 1.0), rgba(13, 26, 46, 1.0));
+  background: -moz-radial-gradient(center, rgba(32, 67, 121, 1.0), rgba(13, 26, 46, 1.0));
+  background: radial-gradient(ellipse at center, rgba(32, 67, 121, 1.0), rgba(13, 26, 46, 1.0));
+  width: 100%;
 }
 
 .page {
@@ -64,6 +65,7 @@ p {
   font-size: 2.2vh;
   color: rgb(159, 177, 232);
   font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.7;
 }
 
 h1 {

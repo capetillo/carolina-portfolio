@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import './NavBar.css';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { Nav, Button} from 'react-bootstrap';
-import ScrollAnimation from 'react-animate-on-scroll';
-
 
 
 class Navigation extends Component {
@@ -20,10 +18,15 @@ class Navigation extends Component {
                     (maxScroll <= 0 && prevScrollPos > currentScrollPos) ||
                     (prevScrollPos <= 0 && currentScrollPos <= 0)
                 ) {
+
                     document.getElementById("navbar").style.top = "0";
+                    
+                    
+                    
                 } else {
                     // how many rems is the navbar hidden 
                     document.getElementById("navbar").style.top = "-15.0rem";
+
                 }
                 prevScrollPos = currentScrollPos
             }
@@ -32,7 +35,9 @@ class Navigation extends Component {
         render () {
             return (
         <div className="links" id="navbar">
+            
             <Nav className="navbar navbar-expand-md navbar-dark shadow-none d-flex justify-content-end">
+        
             <div className="menu-links">
             <Button id ="boton" className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span id="line1" className="line"></span> 
@@ -87,9 +92,8 @@ class Navigation extends Component {
                         Contact Me
                        
                     </Link>
-
-           
             </div>
+     
          </Nav> 
         </div>
             )

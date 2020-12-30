@@ -1,12 +1,11 @@
 .contact {
     display: inline;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .contactme {
     padding-top: 7vh;
-  font-size: 4.5vh;
+    font-size: 4.5vh;
 }
 .contactform {
     margin-bottom: 10vw;
@@ -31,7 +30,7 @@
 #button {
     margin: 1vw 0;
     border-radius: 5px;
-    background-color:rgba(13, 5, 60, 1.0);
+    background-color: transparent;
     color: rgb(113, 249 ,250);;
     border-color: rgb(113, 249 ,250);
     box-sizing: border-box;

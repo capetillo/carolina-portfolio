@@ -13,14 +13,14 @@ const Projects = (props) => {
             
             <Col sm={12} md={6} className="order-md-2 pb-5 pt-5">
                     <h1 className="project1">
-                         Challah Website
+                         "Binge" 
                     </h1>
                     <div className="project">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste a,
-                        non officia possimus ad beatae magni molestias perspiciatis eveniet 
-                        corrupti libero tempora praesentium, impedit explicabo, sequi 
-                        labore ratione fuga ducimus!
+                        I created this app using React, javascript, AWS DynamoDB, AWS S3, AWS API Gateway, materialize, and CSS. 
+                        This app is for users who watch Netflix with others but can't agree on what to watch.
+                         The user logs in, gets a code and shares it with their friend who will be doing the same. Both parties
+                         start swiping left or right on movies and shows, until there's a match! 
                     </p>
                     </div>
                 </Col>
@@ -37,7 +37,7 @@ const Projects = (props) => {
            
             <Col sm={12} md={6} className="order-md-1 pb-5 pt-5">
                 <h1 className="project2">
-                     Binge App
+                     "Flexnit"
                 </h1>
                 <div className="project">
                 <p>
@@ -61,14 +61,15 @@ const Projects = (props) => {
             
             <Col sm={12} md={6} className="order-md-2 pb-5 pt-5">
                     <h1 className="project1">
-                         Challah Website
+                         "Challah by Ari" 
                     </h1>
                     <div className="project">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste a,
-                        non officia possimus ad beatae magni molestias perspiciatis eveniet 
-                        corrupti libero tempora praesentium, impedit explicabo, sequi 
-                        labore ratione fuga ducimus!
+                        I built this website using React, javascript, bootstrap, and CSS.
+                        Challah by Ari is front-end based site with a clean, minimalist design 
+                        requested by the client where the user can reserve challah as well as sign up
+                        for newsletters.
+
                     </p>
                     </div>
                 </Col>
