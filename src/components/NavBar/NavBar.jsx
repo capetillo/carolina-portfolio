@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import './NavBar.css';
 import { Link, animateScroll as scroll } from "react-scroll";
-import {NavBar, Nav, NavItem, Button} from 'react-bootstrap';
+import { Nav, Button} from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
+
 
 
 class Navigation extends Component {
@@ -15,7 +16,6 @@ class Navigation extends Component {
                 let currentScrollPos = window.pageYOffset; 
                 if (
                     //for safari UX
-                    //w3 schools helped a lot ! (i don't know why w3 gets so much hate)
                     (maxScroll > 0 && prevScrollPos > currentScrollPos && prevScrollPos <= maxScroll) ||
                     (maxScroll <= 0 && prevScrollPos > currentScrollPos) ||
                     (prevScrollPos <= 0 && currentScrollPos <= 0)
@@ -23,7 +23,7 @@ class Navigation extends Component {
                     document.getElementById("navbar").style.top = "0";
                 } else {
                     // how many rems is the navbar hidden 
-                    document.getElementById("navbar").style.top = "-5.0rem";
+                    document.getElementById("navbar").style.top = "-15.0rem";
                 }
                 prevScrollPos = currentScrollPos
             }
@@ -32,7 +32,7 @@ class Navigation extends Component {
         render () {
             return (
         <div className="links" id="navbar">
-            <Nav className="navbar navbar-expand-md navbar-dark shadow">
+            <Nav className="navbar navbar-expand-md navbar-dark shadow-none d-flex justify-content-end">
             <div className="menu-links">
             <Button id ="boton" className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span id="line1" className="line"></span> 
@@ -41,9 +41,10 @@ class Navigation extends Component {
             </Button>
             </div>
             <div className="navbar-collapse collapse" id="navbarNav">
-                
+
                     <Link
-                            className="nav-link"
+                            id="link"
+                            className="nav-link in-down"
                             activeClass="active"
                             to="about"
                             spy={true}
@@ -51,11 +52,14 @@ class Navigation extends Component {
                             offset={-70}
                             duration={700}
                         > 
-                        about
+                        
+                        About
+                        
                     </Link>
 
                     <Link
-                            className="nav-link"
+                            id="link"
+                            className="nav-link in-down2"
                             activeClass="active"
                             to="projects"
                             spy={true}
@@ -64,13 +68,14 @@ class Navigation extends Component {
                             duration={700}
                         > 
                        
-                        projects 
+                        Projects 
                         
                     </Link>
-            
-                
+
+
                     <Link
-                            className="nav-link"
+                            id="link"
+                            className="nav-link in-down3"
                             activeClass="active"
                             to="contact"
                             spy={true}
@@ -79,9 +84,10 @@ class Navigation extends Component {
                             duration={700}
                         > 
                         
-                        contact 
+                        Contact Me
                        
                     </Link>
+
            
             </div>
          </Nav> 

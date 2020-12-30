@@ -1,10 +1,24 @@
-* {
-  background: rgb(14, 26, 45);
+* { 
+cursor: default;
+
 }
 
-/* .container-of-page {
-  position: relative;
-} */
+.App{
+background: -webkit-radial-gradient(center, rgba(18, 4, 79, 1.0), rgba(13, 5, 60, 1.0));
+background: -moz-radial-gradient(center, rgba(18, 4, 79, 1.0), rgba(13, 5, 60, 1.0));
+background: radial-gradient(ellipse at center, rgba(18, 4, 79, 1.0), rgba(13, 5, 60, 1.0));
+width: 100%;
+}
+
+.page {
+  padding-top: 17vh;
+  padding-left: 20vh;
+  padding-right: 20vh;
+}
+
+.about-me {
+  padding-top: 5vh;
+}
 
 .photo {
   text-align: center;
@@ -13,11 +27,11 @@
 
 #caro {
   display: block;
-  width: 30vh;
+  width: 35vh;
   border-radius: 1%;
   margin-top: 3vw;
   align-content: center;
-  opacity: 0.5;
+  opacity: 0.45;
   -webkit-transition: 0.7s ease-in-out;
   -moz-transition: 0.7s ease-in-out;
   -o-transition: 0.7s ease-in-out;
@@ -25,9 +39,8 @@
 }
 
 .caro-span {
-  background-color: rgb(243, 159, 74);
-  /* background-color: red; */
-  width: 30vh;
+  background-color: rgb(73, 183, 162);
+  width: 35vh;
   border-radius: 1%;
   -webkit-transition: 0.7s ease-in-out;
   -moz-transition: 0.7s ease-in-out;
@@ -48,17 +61,14 @@
 }
 
 p {
-  font-size: calc(0.5em + 1vw);
-  color: rgb(138, 147, 173)
+  font-size: 2.2vh;
+  color: rgb(159, 177, 232);
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-  color: rgb(206, 215, 243)
-  /* color: rgb(232, 184, 115) accent colors*/
+  
+  color: rgb(206, 215, 243);
+  font-family: 'Montserrat', sans-serif;
+  
 }
-
-/* div.logos {
-  position: fixed;
-  transform: none;
-  transition: none;
-} */

@@ -10,8 +10,10 @@ import {Row, Col} from 'react-bootstrap';
 const About = (props) => {
     return (
         <div className="about" id="about">
-           
-            <Row className="text-left px-5" >
+           <div className="title"> 
+                <h1 className="aboutme">About Me</h1> 
+            </div>
+            <Row className="text-left" >
                
                 <Col sm={12}>
                     <Bio />

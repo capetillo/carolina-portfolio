@@ -1,10 +1,11 @@
 import React from 'react';
 
+
 const Bio = (props) => {
     return (
-    <div>
-        <p>Hey there! My name is Carolina Capetillo and 
-            I'm a full-stack developer based in Santa Barbara, CA. 
+    <div className="bio">
+        <p>Hello! I'm Carolina Capetillo and 
+            I'm a full-stack engineer in Santa Barbara, California. 
             I'm fluent in English, Spanish, Italian, JavaScript, and Python!</p>
     </div>
     )

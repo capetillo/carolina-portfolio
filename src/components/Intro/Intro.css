@@ -1,4 +1,21 @@
+
 .intro {
-    padding-top: 5vw;
-    padding-left: 2vw;
+    font-family: 'Roboto Mono', serif;
+    font-size: 2vh;
+    color: rgb(73, 183, 162);
+}
+
+.name, .catchphrase {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9vh;
+
+}
+
+.catchphrase {
+    color: rgb(159, 177, 232);
+    padding-bottom: 2vh;
+}
+
+.short-intro {
+    font-family: 'Source Sans Pro', sans-serif;
 }

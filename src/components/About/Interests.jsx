@@ -3,9 +3,9 @@ import React from 'react';
 const Interests = (props) => {
     return (
     <div>
-        <p>I enjoy creating apps, websites, and extensions for myself and clients.
-              My goal is to always build products that are 
-              appealing and functional with elegant code.</p>
+        <p>I spend most of my time creating games, apps, and websites for myself and others.
+            I build products that are 
+            appealing, intuitive, and functional while maintaining elegant code.</p>
     </div>
     )
 }

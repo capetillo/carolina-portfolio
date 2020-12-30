@@ -1,14 +1,37 @@
+.aboutme{
+   font-size: 4.5vh;
+    padding-bottom: 2vh;
+}
 
 .lists {
-    color: rgb(138, 147, 173);
+    color: rgb(159, 177, 232);
     display: flex;
+    
 }
 
 .tech {
     list-style-type: none;
+    font-size: calc(0.5em + 1vw);
+    color: rgb(159, 177, 232);
+    
+}
+
+li{
+    font-family: 'Roboto Mono', serif;
+    font-size: 2vh;
+    
 }
 
 ul li::before {
-    content: "◇ ";
-    color: rgb(232, 184, 115)
+   content: "» ";
+    color: rgb(113, 249 ,250);
+  
 }
+
+#GA {
+    color: rgb(113, 249 ,250);
+    text-decoration: none;
+    cursor: pointer
+}
+
+
